@@ -1,5 +1,3 @@
-
-
 <?php 
 
 $database = [
@@ -46,21 +44,57 @@ $database = [
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    <?php foreach ($database as $singolo_oggetto_corrente)  { ?>
+    <div class="general-wrapper-header">
+        <div class="container">
+
+            <header>
+
+                <div class="logo">
+                    <img src="img/logo.png" alt="logo"> <span>Privacy e Termini</span>
+                </div>
+
+
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Introduzione</a></li>
+                        <li><a href="#">Norme sulla Privacy</a></li>
+                        <li><a href="#">Termini di servizio</a></li>
+                        <li><a href="#">Tecnologie</a></li>
+                        <li><a href="#">Domande frequenti</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+        </div>
+    </div>
+
+
+
+    <div class="wrapper-text">
+        <?php foreach ($database as $singolo_oggetto_corrente)  { ?>
 
         <h3> <?php echo $singolo_oggetto_corrente['domanda']; ?> </h3>
         <p> <?php echo $singolo_oggetto_corrente['risposta']; ?> </p>
 
-    <?php } ?> 
-    
+        <?php } ?>
+    </div>
 
-    
+
+
+
 </body>
+
 </html>
