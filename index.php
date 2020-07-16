@@ -49,7 +49,8 @@ $database = [
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -58,25 +59,32 @@ $database = [
 
     <div class="general-wrapper-header">
         <div class="container">
-
-            <header>
-
-                <div class="logo">
-                    <img src="img/logo.png" alt="logo"> <span>Privacy e Termini</span>
+                
+                <div class="mail">
+                    <img src="img/escher.jpg" alt=""> <span>tommasovenza@gmail.com</span>
                 </div>
 
 
+                <header>
 
-                <nav>
-                    <ul>
-                        <li><a href="#">Introduzione</a></li>
-                        <li><a href="#">Norme sulla Privacy</a></li>
-                        <li><a href="#">Termini di servizio</a></li>
-                        <li><a href="#">Tecnologie</a></li>
-                        <li><a href="#">Domande frequenti</a></li>
-                    </ul>
-                </nav>
-            </header>
+                    <div class="logo">
+                        <img src="img/logo.png" alt="logo"> <span>Privacy e Termini</span>
+                    </div>
+
+
+                    <nav>
+                        <ul>
+                            <li><a href="#">Introduzione</a></li>
+                            <li><a href="#">Norme sulla Privacy</a></li>
+                            <li><a href="#">Termini di servizio</a></li>
+                            <li><a href="#">Tecnologie</a></li>
+                            <li><a class="active" href="#">Domande frequenti</a></li>
+                        </ul>
+                    </nav>
+
+
+
+                </header>
 
         </div>
     </div>

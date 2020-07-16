@@ -10,7 +10,7 @@ body {
 
 ul li {
     display: inline-block;
-    line-height: 80px;
+    line-height: 65px;
     margin-left: 30px;
 }
 
@@ -27,6 +27,14 @@ a {
 
 h3, p {
     margin-bottom: 15px;
+    color: rgba(0, 0, 0, .7);
+}
+
+p {
+    font-size: 14px;
+    letter-spacing: .2px;
+    line-height: 24px;
+    font-weight: 300;
 }
 
 .general-wrapper-header {
@@ -34,12 +42,28 @@ h3, p {
 }
 
 .container {
-    width: 95%;
+    width: 98%;
     margin: 0 auto;
 }
 
 .logo {
     margin-top: 30px;
+}
+
+.mail {
+    float: right;
+    margin: 45px 15px 0 0;
+}
+
+.mail img {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.mail span {
+    font-size: 14px;
 }
 
 header {
@@ -63,3 +87,10 @@ header span {
     margin: 0 auto;
     padding: 20px;
 }
+
+.active {
+    border-bottom: 3px solid #3367d6;
+    color: #3367d6;
+    padding-bottom: 12px;
+}
+
